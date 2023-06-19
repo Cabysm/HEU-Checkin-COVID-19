@@ -19823,3 +19823,18 @@ IndexError: pop from empty list
 [info] Task Finished at 2023-06-19 09:07:52 Monday
 ============================
 
+============================
+[debug] Begin to login ...
+
+[error] :.:.:.:.: Except return :.:.:.:.:
+[error] Python Error: 
+ Traceback (most recent call last):
+  File "Actions/checkin.py", line 81, in <module>
+    csrfToken = csrfToken.pop().attrib["content"]
+IndexError: pop from empty list
+
+:.:.:.:.: Finally :.:.:.:.:
+[info] Notification sended at 2023-06-20 07:11:46 Tuesday
+[info] Task Finished at 2023-06-20 07:11:46 Tuesday
+============================
+
