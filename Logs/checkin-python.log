@@ -30410,3 +30410,21 @@ KeyError: 'name'
 [info] Task Finished at 2024-05-26 07:11:49 Sunday
 ============================
 
+============================
+[debug] Begin to login ...
+
+[error] :.:.:.:.: Except return :.:.:.:.:
+[error] Python Error: 
+ Traceback (most recent call last):
+  File "Actions/checkin.py", line 63, in <module>
+    user_form = {x.attrib["name"]: x.attrib["value"] for x in hidden_inputs}
+  File "Actions/checkin.py", line 63, in <dictcomp>
+    user_form = {x.attrib["name"]: x.attrib["value"] for x in hidden_inputs}
+  File "src/lxml/etree.pyx", line 2545, in lxml.etree._Attrib.__getitem__
+KeyError: 'name'
+
+:.:.:.:.: Finally :.:.:.:.:
+[info] Notification sended at 2024-05-26 09:01:50 Sunday
+[info] Task Finished at 2024-05-26 09:01:50 Sunday
+============================
+
